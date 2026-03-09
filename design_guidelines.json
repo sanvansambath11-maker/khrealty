@@ -1,0 +1,148 @@
+{
+  "project_name": "KH Realty",
+  "theme": "light",
+  "design_philosophy": {
+    "core_concept": "Modern Khmer Luxury",
+    "emotional_tone": "Trustworthy, Prestigious, Serene, aspirational",
+    "visual_style": "Quiet Luxury / Tropical Modernism",
+    "key_principles": [
+      "Fusion over Imitation: Mix modern architectural lines with subtle Khmer motifs (e.g., golden ratios, warm wood tones)",
+      "Content is King: Property images are the hero. Use aspect-ratio-video or square for listings",
+      "Negative Space: Use generous white space to reflect luxury",
+      "Contrast: Deep Royal Blue vs. Metallic Gold"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Poppins, sans-serif",
+      "body": "Inter, sans-serif"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-light tracking-tight leading-tight",
+      "h2": "text-3xl md:text-5xl font-medium tracking-tight",
+      "h3": "text-2xl md:text-3xl font-normal",
+      "body_lg": "text-lg leading-relaxed text-slate-600",
+      "body_base": "text-base leading-relaxed text-slate-600",
+      "caption": "text-sm font-medium tracking-wider uppercase text-slate-500"
+    },
+    "usage_rules": [
+      "Headings: Use lighter weights (light/regular) for large sizes to look elegant. Avoid bold everywhere.",
+      "Body: Use Inter with adequate line-height (leading-relaxed).",
+      "Colors: Never use pure black (#000000). Use #0F2A44 for headings, #475569 for body."
+    ]
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0F2A44",
+        "foreground": "#FFFFFF",
+        "hover": "#163A5E"
+      },
+      "secondary": {
+        "DEFAULT": "#C9A227",
+        "foreground": "#0F2A44",
+        "hover": "#D4B03B"
+      },
+      "background": {
+        "DEFAULT": "#FFFFFF",
+        "alt": "#F5F5F5",
+        "dark": "#0F2A44"
+      },
+      "muted": {
+        "DEFAULT": "#F1F5F9",
+        "foreground": "#64748B"
+      },
+      "border": "#E2E8F0"
+    },
+    "usage": {
+      "backgrounds": "White for content cards, Light Gray (#F5F5F5) for section backgrounds to create depth.",
+      "text": "Primary Blue (#0F2A44) for all major headings. Gold (#C9A227) for accents, active states, and primary CTAs.",
+      "gradients": "None. Use solid blocks of color or subtle textures."
+    }
+  },
+  "spacing_and_layout": {
+    "container": {
+      "max_width": "max-w-[1440px]",
+      "padding": "px-4 md:px-8 lg:px-12",
+      "center": "mx-auto"
+    },
+    "grid_system": {
+      "base": "grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8",
+      "featured": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "bento": "grid grid-cols-1 md:grid-cols-4 gap-4"
+    },
+    "section_spacing": "py-16 md:py-24"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#C9A227] text-[#0F2A44] hover:bg-[#D4B03B] rounded-none px-8 py-6 font-medium tracking-wide uppercase text-sm transition-all duration-300",
+      "secondary": "bg-transparent border border-[#0F2A44] text-[#0F2A44] hover:bg-[#0F2A44] hover:text-white rounded-none px-8 py-6 font-medium tracking-wide uppercase text-sm transition-all duration-300",
+      "ghost": "text-[#0F2A44] hover:text-[#C9A227] font-medium"
+    },
+    "cards": {
+      "property": "group bg-white rounded-sm overflow-hidden border border-transparent hover:border-[#C9A227]/30 transition-all duration-300 shadow-sm hover:shadow-xl",
+      "category": "relative h-[400px] overflow-hidden rounded-sm group cursor-pointer"
+    },
+    "inputs": {
+      "default": "rounded-none border-[#E2E8F0] focus:border-[#C9A227] focus:ring-[#C9A227] bg-white h-12"
+    },
+    "navigation": {
+      "header": "sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 h-20 flex items-center justify-between"
+    }
+  },
+  "assets": {
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 1.5px (Thin/Elegant)"
+    },
+    "images": {
+      "hero_background": "https://images.unsplash.com/photo-1706583733600-08e942012484?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBsdXh1cnklMjB2aWxsYSUyMGNhbWJvZGlhJTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzczMDM2Njc4fDA&ixlib=rb-4.1.0&q=85",
+      "phnom_penh_skyline": "https://images.unsplash.com/photo-1715874690160-3bc8acfc2fc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxwaG5vbSUyMHBlbmglMjBjaXR5JTIwc2t5bGluZSUyMHN1bnNldHxlbnwwfHx8fDE3NzMwMzY2ODB8MA&ixlib=rb-4.1.0&q=85",
+      "property_interior_living": "https://images.unsplash.com/photo-1759264244827-1dde5bee00a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBsdXh1cnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MHx8fHwxNzczMDM2Njc5fDA&ixlib=rb-4.1.0&q=85",
+      "property_exterior_villa": "https://images.unsplash.com/photo-1717910699360-8199089f0446?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBsdXh1cnklMjB2aWxsYSUyMGNhbWJvZGlhJTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzczMDM2Njc4fDA&ixlib=rb-4.1.0&q=85",
+      "property_interior_bedroom": "https://images.pexels.com/photos/3754595/pexels-photo-3754595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+  },
+  "sections_guidance": {
+    "header": {
+      "description": "Sticky header with transparent to solid transition. Logo on left, Nav center, Contact/Lang right.",
+      "styles": "bg-white/95 backdrop-blur-sm border-b border-gray-100"
+    },
+    "hero": {
+      "description": "Full height or 80vh. High-quality background image with dark overlay (bg-black/40). Centered text with search bar floating at bottom or center.",
+      "elements": "Headline (Poppins, White), Subhead (Inter, White/90), Search Bar (White bg, rounded-sm, shadow-2xl)"
+    },
+    "search_filters": {
+      "description": "Floating bar or dedicated section. Clean inputs with labels inside or top. Primary Action button.",
+      "style": "bg-white p-6 rounded-sm shadow-xl -mt-24 relative z-20 max-w-5xl mx-auto flex flex-col md:flex-row gap-4"
+    },
+    "featured_properties": {
+      "description": "Grid of cards. Image takes 60% of card height. Details below.",
+      "card_style": "Image zoom on hover. Price in Gold. Location with pin icon."
+    },
+    "categories": {
+      "description": "3 cards (Borey, Condo, Land). Full background image with gradient overlay. Text bottom-left.",
+      "layout": "Grid 3 columns. 'Borey' card could span 2 cols for emphasis."
+    },
+    "gallery": {
+      "description": "Masonry or Bento grid of interiors and completed projects.",
+      "style": "No gaps or small gaps (gap-1). Hover reveals caption."
+    },
+    "contact": {
+      "description": "Two column: Left Form, Right Info/Map. Clean white form on gray background.",
+      "elements": "Gold Submit Button. Telegram icon prominent."
+    }
+  },
+  "motion_and_interaction": {
+    "transitions": "transition-all duration-300 ease-in-out",
+    "hover_effects": "Scale up images slightly (scale-105). Lift cards (-translate-y-1).",
+    "scroll_reveal": "Fade in up for sections."
+  },
+  "universal_guidelines": [
+    "Do not use gradients for backgrounds, use solid colors or subtle textures.",
+    "Do not use center alignment for long text blocks.",
+    "Use 'data-testid' for all interactive elements.",
+    "Ensure 4.5:1 contrast ratio for text.",
+    "Use lucide-react for icons."
+  ]
+}
